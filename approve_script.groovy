@@ -1,5 +1,5 @@
 import org.jenkinsci.plugins.scriptsecurity.scripts.*
-import org.jenkinsci.plugins.scriptsecurity.scripts.languages.GroovyLanguage
+import org.jenkinsci.plugins.scriptsecurity.scripts.languages.*
 
 final ScriptApproval sa = ScriptApproval.get();
 
