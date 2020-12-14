@@ -12,7 +12,7 @@ def strategy = new FullControlOnceLoggedInAuthorizationStrategy()
 strategy.setAllowAnonymousRead(true)
 instance.setAuthorizationStrategy(strategy)
 */
-
+//
 def logger = Logger.getLogger("")
 def installed = false
 def initialized = false
