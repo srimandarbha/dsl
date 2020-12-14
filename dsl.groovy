@@ -10,7 +10,7 @@ job("accounts") {
 	scm {
 		git {
 			remote {
-				github("git@github.com:temper/accounts.git", "ssh")
+				github("https://github.com/srimandarbha/osdash.git", "https")
 			}
 			branch("**")
 		}
@@ -35,7 +35,7 @@ job("accounts") {
 			}
 		}
 		it / 'properties' / 'com.coravy.hudson.plugins.github.GithubProjectProperty' {
-			'projectUrl'('https://bnjgit01.barnesandnoble.com/BN-Puppet-Modules/accounts/')
+			'projectUrl'('https://github.com/srimandarbha/osdash.git')
 		}
 	}
 }
